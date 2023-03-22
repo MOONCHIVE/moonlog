@@ -1,0 +1,37 @@
+#index-select {color: red;}
+.index { font-size: 25px;
+         text-decoration: none;
+         color:black;
+         border-right:1px solid gray;
+         margin:0;
+         padding:40px;
+         width: 160px;
+    }
+h1{font-size:45px;
+    text-align: center;
+    border-bottom:3px solid gray;
+    margin: 0;
+    padding: 20px;
+}
+a {color: black;
+text-decoration:none;
+}
+#grid{
+    display:grid;
+    grid-template-columns: 160px 1fr;
+}
+#article{
+    padding-left: 105px;
+}
+@media(max-width:800px){
+    #grid{
+        display: block;
+    }
+    #article{
+        padding-left:0px;
+    }
+    .index{border-right:none;
+           margin-left: auto;
+           margin-right: auto;
+    }
+    }

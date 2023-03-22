@@ -2,53 +2,15 @@
 <head>
     <title>Moon-log </title>
     <meta charset="utf-8">
-    <style>
-        #daily {color: red;}
-        .index { font-size: 25px;
-                 text-decoration: none;
-                 color:black;
-                 border-right:1px solid gray;
-                 margin:0;
-                 padding:40px;
-                 width: 120px;
-            }
-        h1{font-size:45px;
-            text-align: center;
-            border-bottom:3px solid gray;
-            margin: 0;
-            padding: 20px;
-        }
-        a {color: black;
-        text-decoration:none;
-        }
-        #grid{
-            display:grid;
-            grid-template-columns: 150px 1fr;
-        }
-        #article{
-            padding-left: 75px;
-        }
-        @media(max-width:800px){
-            #grid{
-                display: block;
-            }
-            #article{
-                padding-left:0px;
-            }
-            .index{border-right:none;
-                   margin-left: auto;
-                   margin-right: auto;
-            }
-            }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <h1><a href=index.html>Moon's Blog</a></h1>
     <div id="grid">
      <ul class="index">
-        <li><a href=daily.html id="daily">Daliy Log</a></li>
-        <li><a href=todo.html>To-do List</a></li>
+        <li><a href=daily.html id="index-select">Daliy Log</a></li>
+        <li><a href=todo.html>Review Log</a></li>
         <li><a href=insight.html>Insight Log</a></li>
      </ul>
      <div id="article">

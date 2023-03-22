@@ -2,49 +2,25 @@
 <head>
     <title>Moon-log </title>
     <meta charset="utf-8">
-    <style>
-        #todo {color: red;}
-        .index { font-size: 25px;
-                 text-decoration: none;
-                 color:black;
-                 border-right:1px solid gray;
-                 margin:0;
-                 padding:40px;
-                 width: 120px;
-            }
-        h1{font-size:45px;
-            text-align: center;
-            border-bottom:3px solid gray;
-            margin: 0;
-            padding: 20px;
-        }
-        a {color: black;
-        text-decoration:none;
-        }
-        @media(max-width:800px){
-            #grid{
-                display: block;
-            }
-            #article{
-                padding-left:0px;
-            }
-            .index{border-right:none;
-                   margin-left: auto;
-                   margin-right: auto;
-            }
-            }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <h1><a href=index.html>Moon's Blog</a></h1>
-    <ul class="index">
-        <li><a href=daily.html>Daliy Log</a></li>
-        <li><a href=todo.html id="todo">To-do List</a></li>
-        <li><a href=insight.html>Insight Log</a></li>
-    </ul>
 
-
+    <div id="grid">
+        <ul class="index">
+           <li><a href=daily.html >Daliy Log</a></li>
+           <li><a href=todo.html id="index-select">Review Log</a></li>
+           <li><a href=insight.html>Insight Log</a></li>
+        </ul>
+        <div id="article">
+        <h2>Review Log</h2>
+         <p>
+          A daily log is a tool used to keep track of the activities and events that occur during the course of a day. It can be in the form of a journal or planner, and can be used for personal or professional purposes. A daily log can help individuals to stay organized, manage their time effectively, and reflect on their progress towards their goals. By recording their daily activities and tasks, individuals can gain a better understanding of how they spend their time, identify areas for improvement, and make necessary adjustments to their routines. Overall, a daily log is a valuable tool for anyone looking to increase their productivity, stay on top of their responsibilities, and maintain a sense of control over their daily life.
+         </p>
+        </div>
+       </div>
 
 
 </body>
